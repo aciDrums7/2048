@@ -1,0 +1,82 @@
+.b-black {
+    border: 3px solid black;
+}
+
+.container {
+    display: grid;
+    grid-template:
+        [row1-start] "c1 c2 c3 c4" 15vh[row1-end]
+        [row2-start] "c5 c6 c7 c8" 15vh[row2-end]
+        [row3-start] "c9 c10 c11 c12" 15vh[row3-end]
+        [row4-start] "c13 c14 c15 c16" 15vh[row4-end]
+        / 15vw 15vw 15vw 15vw;
+        place-content: center;
+}
+
+.c1 {
+    grid-area: c1;
+}
+
+.c2 {
+    grid-area: c2;
+}
+
+.c3 {
+    grid-area: c3;
+}
+
+.c4 {
+    grid-area: c4;
+}
+
+.c5 {
+    grid-area: c5;
+}
+
+.c6 {
+    grid-area: c6;
+}
+
+.c7 {
+    grid-area: c7;
+}
+
+.c8 {
+    grid-area: c8;
+}
+
+.c9 {
+    grid-area: c9;
+}
+
+.c10 {
+    grid-area: c10;
+}
+
+.c11 {
+    grid-area: c11;
+}
+
+.c12 {
+    grid-area: c12;
+}
+
+.c13 {
+    grid-area: c13;
+}
+
+.c14 {
+    grid-area: c14;
+}
+
+.c15 {
+    grid-area: c15;
+}
+
+.c16 {
+    grid-area: c16;
+}
+
+.color1 {
+    background-color: rgb(231, 105, 105);
+}
